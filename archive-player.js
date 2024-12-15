@@ -4,9 +4,13 @@ Archive-player, a JS Bookmarklet.
 \n
 A better webplayer for stream-only videos hosted on archive.org
 \n
+Mainly intended to be used for items in the TV Archive collection at https://archive.org/details/tvarchive
+\n
 License: GPL-3.0
 \n
 Repository: https://github.com/kmfd/archive-player
+\n
+Usage: run this bookmarklet when you are on the page of a stream-only video on archive.org. A modal overlay will appear with a video player alongside a list of segments of the video in 6-minute pieces, listed by airtime.
 ");
   var url = window.location.href;
   var identifier = url.match(/archive\.org\/details\/([^\/]+)/)[1];
